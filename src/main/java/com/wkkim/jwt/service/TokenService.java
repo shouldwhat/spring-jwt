@@ -2,11 +2,11 @@ package com.wkkim.jwt.service;
 
 import java.util.Map;
 
-public interface TokenService {
+public interface TokenService<T> {
 
-	public Map<String, Object> issueToken(Map<String, Object> param);
+	public T issueToken(Map<String, Object> param);
 	
-	public Map<String, Object> verifyToken(String token);
+	public T verifyToken(String token);
 	
-	public Map<String, Object> refreshToken(String token);
+	public T refreshToken(String token);
 }
