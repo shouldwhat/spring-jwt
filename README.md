@@ -14,7 +14,7 @@
 ```
 	*. 헤더.바디.서명
 	
-	*. base64(헤더).base64(바디).Hash Function(헤더.바디)
+	*. base64(헤더).base64(바디).개인키암호화(Hash Function(바디))
 	
 	*. eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJKb2UifQ.ipevRNuRP6HflG8cFKnmUPtypruRC4fb1DWtoLL62SY
 ```
